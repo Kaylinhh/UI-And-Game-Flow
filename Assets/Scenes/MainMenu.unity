@@ -3773,6 +3773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eafc8d198179fa4c932b9e71899b6ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameSceneManager
+  quitButton: {fileID: 1502092602}
 --- !u!4 &1885825998
 Transform:
   m_ObjectHideFlags: 0
