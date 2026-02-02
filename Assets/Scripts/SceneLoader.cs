@@ -1,26 +1,13 @@
-using UnityEngine.SceneManagement;
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
-using UnityEngine;
 
-public class SceneLoader : MonoBehaviour //handles scene navigation 
+public class SceneLoader : MonoBehaviour // handles scene navigation
 {
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     public void GoToScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneTransitionManager.instance.LoadScene(sceneName);
     }
 
     public void Exit()
@@ -32,5 +19,4 @@ public class SceneLoader : MonoBehaviour //handles scene navigation
         Debug.Log("You've closed the game.");
 #endif
     }
-
 }
