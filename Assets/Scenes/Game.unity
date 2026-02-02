@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 564297696}
   - component: {fileID: 564297695}
   m_Layer: 0
-  m_Name: GameSceneManager
+  m_Name: SceneLoader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -978,7 +978,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
+  - {fileID: 564297696}
   - {fileID: 619394802}
   - {fileID: 1944341974}
   - {fileID: 1994242080}
-  - {fileID: 564297696}
